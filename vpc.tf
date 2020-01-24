@@ -1,4 +1,4 @@
-/*
+
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
@@ -16,4 +16,3 @@ module "vpc" {
     Environment = "dev"
   }
 }
-*/
