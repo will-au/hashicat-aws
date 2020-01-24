@@ -4,7 +4,7 @@ module "vpc" {
   name = "gaurav-vpc"
   cidr = "10.0.0.0/24"
 
-  azs             = ["us-west-1a"]
+  azs             = ["us-east-1d"]
   private_subnets = ["10.0.1.0/24"]
   public_subnets  = ["10.0.101.0/24"]
 
